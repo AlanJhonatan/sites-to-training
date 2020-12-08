@@ -34,7 +34,7 @@
  </ul>
  
  <p>
-  <strong>Features extras que fiz: </strong>
+  <strong>Features extras que fiz ou irei fazer: </strong>
  </p>
  <ul>
   <li> - [ ] Usar o iframe do google maps para página de "contato".</li>

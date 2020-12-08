@@ -8,63 +8,127 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="linha background-gray">
-    
-    <div class="coluna col4">
-      <h1>
-        <a href="/">AlanJhonatan</a>
-      </h1>
-    </div>
-    
-    <div class="coluna col8"> 
-      <nav> 
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/pages/clientes.html">Clientes</a></li>
-          <li><a href="/pages/servicos.html">Serviços</a></li>
-          <li><a href="/pages/sobre-mim.html">Sobre Mim</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav> 
+  <!-- HEADER START -->
+  <div class="header">
+    <div class="linha">
+      <header>
+        <div class="coluna col4">
+          <h1>
+            <a href="/">AlanJhonatan</a>
+          </h1>
+        </div>
+        <div class="coluna col8">
+          <nav>
+            <ul class="menu list-style-none">
+              <li><a href="#">Home</a></li>
+              <li><a href="/pages/clientes.html">Clientes</a></li>
+              <li><a href="/pages/servicos.html">Serviços</a></li>
+              <li><a href="/pages/sobre-mim.html">Sobre Mim</a></li>
+              <li><a href="/pages/contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </div>
   </div>
+  <!-- HEADER END -->
   
+  <!-- MAIN START -->
   <div class="linha">
-    <div class="coluna col4">
-      <h4>Localização</h4>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.382061545886!2d-71.11884878516707!3d42.37700684202486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sUniversidade%20Harvard!5e0!3m2!1spt-BR!2sbr!4v1607287706517!5m2!1spt-BR!2sbr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      <p>Rua Rualandia, 123</p>
-      <p>Bairro Bairrolandia</p>
-      <p>Cidadelandia - UF</p>
-    
-      <h4>Contato direto</h4>
-      <p>Fone: (00)9999-9999</p>
-      <p>Email: contato@contato.com</p>
-    </div>
+    <section>
+      <div class="coluna col5 sidebar">
+        <h3>Localização</h3>
+        <img src="/img/mapa.jpg" alt="">
+        <ul class="no-padding list-style-none">
+          <li>Rua Rualândia, 123</li>
+          <li>Bairro Bairrolandia</li>
+          <li>Cidadelandia - AB</li>
+        </ul>
+        <h3>Contato direto</h3>
+        <ul class="no-padding list-style-none">
+          <li>Fone: <strong>(00) 1234-5678</strong></li>
+          <li>Email: <strong>contato@contato.com</strong></li>
+          <li>Skype: <strong>login.skype</strong></li>
+        </ul>
+      </div>
+      <div class="coluna col7">
+        <h2>Envie sua mensagem</h2>
+        <form action="">
+          <label for="nome">Seu nome:</label>
+          <input type="text" name="nome" id="nome" />
+          
+          <label for="email">Seu email:</label>
+          <input type="text" name="nome" id="email" />
 
+          <label for="assunto">Assunto:</label>
+          <input type="text" name="nome" id="assunto" />
 
-    <div class="coluna col8">
-      <h2>Envie uma mensagem</h2>
-      <form action="#" method="#">
-        <label for="">Seu nome:</label>
-        <input type="text" name="" id="">
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem"></textarea>
 
-        <label for="">Seu email:</label>
-        <input type="text" name="" id="">
-
-        <label for="">Assunto:</label>
-        <input type="text" name="" id="">
-        
-        <label for="">Mensagem</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-      </form>
+          <input type="submit" class="btn" name="enviar" value="Enviar mensagem &raquo;" />
+        </form>
+      </div>
+    </section>
+  </div>
+  <!-- MAIN END -->
+  
+  <div class="conteudo-extra">
+    <div class="linha">
+      <div class="coluna col7">
+        <section>
+          <h2>Método Alternativo de Contato</h2>
+          <p>Caso não consiga me contatar por alguns dos métodos acima, tente estes:</p>
+          <ol>
+            <li>Enviar uma mensagem em uma garrafa</li>
+            <li>Tentar um sinal de fumaça</li>
+          </ol>
+          <p>Tente por sua conta e risco. :)</p>
+        </section>
+      </div>
+      <div class="coluna col5">
+        <h3>Últimas Notícias</h3>
+        <ul class="style-list-none no-padding noticia">
+          <li>
+            <img src="/img/thumb-pequena.jpg" alt="">
+            <h4>Título da notícia publicada no blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus neque ut ratione quos laborum cumque doloribus enim et consequatur nostrum magni officia.
+              <a href="">Leia mais &raquo;</a>
+            </p>
+          </li>
+          <li>
+            <img src="/img/thumb-pequena.jpg" alt="">
+            <h4>Título da notícia publicada no blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus neque ut ratione quos laborum cumque doloribus enim et consequatur nostrum magni officia.
+              <a href="">Leia mais &raquo;</a>
+            </p>
+          </li>
+          <li>
+            <img src="/img/thumb-pequena.jpg" alt="">
+            <h4>Título da notícia publicada no blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus neque ut ratione quos laborum cumque doloribus enim et consequatur nostrum magni officia.
+              <a href="">Leia mais &raquo;</a>
+            </p>
+          </li>
+        </ul>  
+      </div>
     </div>
   </div>
   
-  <div class="linha background-gray">
-    <div class="coluna col12 text-align-center">
-      Todos direitos reservados
+  <!-- FOOTER START -->
+  <div class="footer">
+    <div class="linha">
+      <div class="coluna col12 text-align-center">
+        <span>&copy; 2020 - Alan Jhonatan</span>
+      </div>
     </div>
   </div>
+  <!-- FOOTER END -->
 </body>
 </html>

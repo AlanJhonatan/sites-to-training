@@ -14,5 +14,9 @@
  
  
 ## Créditos e Referências
-Icons by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-<a href="https://iconscout.com/icons/javascript" target="_blank">Javascript Icon</a> by <a href="https://iconscout.com/contributors/maninderkaur">Maninder Kaur</a> on <a href="https://iconscout.com">Iconscout</a>
+  <p>
+    Icons by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> and <a href="https://www.flaticon.com/authors/freepik"         title="Freepik">Freepik</a>
+  </p>
+  <p>
+    <a href="https://iconscout.com/icons/javascript" target="_blank">Javascript Icon</a> by <a href="https://iconscout.com/contributors/maninderkaur">Maninder Kaur</a>       on <a href="https://iconscout.com">Iconscout</a>
+   </p>

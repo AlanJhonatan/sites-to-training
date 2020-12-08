@@ -18,18 +18,28 @@
  #### [RBTech](https://www.youtube.com/c/RBTechinfo)
  
  <p>
-  Este site foi desenvolvido seguindo <a href="https://youtube.com/playlist?list=PLInBAd9OZCzydDFvm06EgbPXYylGVcyIL">esta playlist</a> disponível no YouTube.
+  Este site foi desenvolvido seguindo <a href="https://youtube.com/playlist?list=PLInBAd9OZCzydDFvm06EgbPXYylGVcyIL">uma playlist</a> disponível no YouTube.
  </p>
  
  <p>
-  Conceitos que foram abordados: 
+  <strong>Conceitos que foram abordados: </strong>
  </p>
  <ul>
   <li>Conceitos sobre SEO e Metadados e qual a melhor forma de usar para ajudar na indexação do site nos mecanismos de busca</li>
   <li>Estruturação da página usando os elementos HTML <a href="https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065">de forma mais semântica</a></li>
-  <li>Layout de página usando sistema de Grid igual os frameworks webs mordernos utilizam</li>
-  <li>Conceitos de Box Model</li>
+  <li>Layout de página usando sistema de Grid como os frameworks web mordernos utilizam</li>
   <li>Conceitos sobre Normalize.CSS e Reset CSS</li>
+  <li>Conceitos de Box Model</li>
+  <li>Conceitos de Float</li>
+ </ul>
+ 
+ <p>
+  <strong>Features extras que fiz: </strong>
+ </p>
+ <ul>
+  <li> - [ ] Usar o iframe do google maps para página de "contato".</li>
+  <li> - [ ] Implementar um Deep Link com email na página de "contato".</li>
+  <li> - [ ] Aplicar alguns conceitos básicos de responsividade no site para dispositivos mobile.</li>
  </ul>
  
 ## Créditos e Referências

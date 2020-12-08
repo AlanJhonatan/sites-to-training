@@ -7,11 +7,11 @@
 
 ## Atualmente para FrontEnd estou focando em 
 
- <img src="./sources/html5.png">
- <img src="./sources/css.png"> 
- <img src="./sources/javascript.png">
- <img src="./sources/react.png">
- <img src="./sources/reactnative.png">
+ <img src="./sources/html5.png" width="20%" />
+ <img src="./sources/css.png" width="20%" /> 
+ <img src="./sources/javascript.png" width="20%">
+ <img src="./sources/react.png" width="20%">
+ <img src="./sources/reactnative.png" width="20%">
  
  
 ##Créditos e Referências

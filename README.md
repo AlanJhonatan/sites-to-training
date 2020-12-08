@@ -11,10 +11,8 @@
  <a href=""><img src="./sources/css.png" width="10%" /></a> 
  <a href=""><img src="./sources/javascript.png" width="10%"></a>
  <a href=""><img src="./sources/react.png" width="10%"></a>
- <a href=""><img src="./sources/reactnative.png" width="10%"></a>
  
  
-##Créditos e Referências
-Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
+## Créditos e Referências
+Icons by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
 <a href="https://iconscout.com/icons/javascript" target="_blank">Javascript Icon</a> by <a href="https://iconscout.com/contributors/maninderkaur">Maninder Kaur</a> on <a href="https://iconscout.com">Iconscout</a>
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>

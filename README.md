@@ -7,10 +7,11 @@
 
 ## Atualmente para FrontEnd estou focando em 
 
- <img src="https://pasteboard.co/JE1NvTB.png">
- <img src="https://pasteboard.co/JE1QdiP.png"> 
- <img src="https://pasteboard.co/JE1RplB.png">
- <img src="https://pasteboard.co/JE1S9nR.png">
+ <img src="./sources/html5.png">
+ <img src="./sources/css.png"> 
+ <img src="./sources/javascript.png">
+ <img src="./sources/react.png">
+ <img src="./sources/reactnative.png">
  
  
 ##Créditos e Referências

@@ -1,30 +1,194 @@
 body {
   background: #e5e5e5;
   color: #252525;
-  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-button {
-  border: none;
+a {
+  color: #ff5e84;
   font-weight: bold;
-  background: none;
-  color: #ff5E84;
-}
-
-.fat {
-  background: #ff5E84;
-  color: white;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-#footer a {
   text-decoration: none;
-  color: #28252b;
+}
+
+a:hover {
+  color: #ff5e84;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .hidden {
   display: none;
+}
+
+p, .description {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+#container {
+  max-width: 980px;
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+}
+
+#intro {
+  width: 300px;
+  margin-right: 20px;
+}
+
+main {
+  margin-top: 32px 0;
+}
+
+#buttons {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+button {
+  background: none;
+  color: #ff5E84;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button.fat {
+  background: #ff5E84;
+  color: white;
+
+  width: 150px;
+  height: 40px;
+
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px rgba(255, 0, 92, .16);
+}
+
+button.fat:hover {
+  background: #ff5E84;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #777
+}
+
+footer a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: #28252b;
+}
+
+footer a:hover {
+  color: #ff5e84;
+  font-weight: bold;
+}
+
+.ideia {
+  display: flex;
+  background: #FFF;
+  margin-bottom: 32px;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px -8px 
+    rgba(1, 1, 1, .1);
+}
+
+.ideia img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+
+.ideia h3 {
+  margin: 0;
+}
+
+.ideia p {
+  margin: 8px 0;
+  color: #777;
+}
+
+.ideia .description {
+  margin: 5px 0;
+}
+
+/* modal */
+
+#modal {
+  background: #ff5e84;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#modal .content {
+  margin-top: 1.3em;
+  color: white;
+}
+
+#modal .content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content form {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  margin: 16px 0;
+}
+
+form textarea,
+form input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(121, 16, 41, 0.5);
+  outline: none;
+  font-size: 16px;
+}
+
+form label {
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+
+form button {
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0984e3;
+  color: white;
+  text-decoration: none;
 }

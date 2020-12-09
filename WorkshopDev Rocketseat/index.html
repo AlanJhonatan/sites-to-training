@@ -1,26 +1,139 @@
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Casa Criativa</title>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <img src="./images/logo.png" alt="Casa criativa logo">
-  <p>
-    Ficar em casa em períodos longos, não deve ser nada fácil.</p>
-  <p>
-    Por isso iremos catalogar <strong>ideias, brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e 
-    tudo que for necessário para tornar esse momento mais interessante.
-  </p>
-  <p>
-    Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.
-  </p>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Casa Criativa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section id="intro">
+        <header>
+          <img src="./images/logo.png" alt="Casa criativa logo" />
+        </header>
+        <main>
+          <p>Ficar em casa em períodos longos, não deve ser nada fácil.</p>
+          <p>
+            Por isso iremos catalogar
+            <strong
+              >ideias, brincadeiras, jogos, filmes, livros, cursos,
+              dicas</strong
+            >
+            e tudo que for necessário para tornar esse momento mais
+            interessante.
+          </p>
+          <p>
+            Comece clicando em ver ideias para ver as ideias cadastradas e
+            contribua adicioando a sua ideia.
+          </p>
+        </main>
+        <section id="buttons">
+          <button>+ Adicionar Ideia</button>
+          <button class="fat">Ver Ideias</button>
+        </section>
+        <footer>
+          Com 💜 <a href="https://www.rocketseat.com.br">Rocketseat</a>
+        </footer>
+      </section>
+      <section class="last-ideias">
+        <div class="ideia">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/3867/3867037.svg"
+            alt="Imagem de Futebol Americano"
+          />
+          <div class="content">
+            <h3>Futebol Americano</h3>
+            <p>Esporte</p>
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              ratione aliquid, alias dignissimos animi ut maiores. Maiores fugit
+              eius iure quisquam, ducimus nihil nobis, sunt reprehenderit qui
+              architecto, harum officiis?
+            </div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
 
-  <button>+ Adicionar Ideia</button>
-  <button class="fat">Ver Ideias</button>
+        <div class="ideia">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/3867/3867133.svg"
+            alt="Imagem de curso de Mineração de BitCoin"
+          />
+          <div class="content">
+            <h3>Mineração de BitCoin</h3>
+            <p>Estudos</p>
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              ratione aliquid, alias dignissimos animi ut maiores. Maiores fugit
+              eius iure quisquam, ducimus nihil nobis, sunt reprehenderit qui
+              architecto, harum officiis?
+            </div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
 
-  <p id="footer">Com 💜 <a href="https://www.rocketseat.com.br">Rocketseat</a></p>
+        <div class="ideia">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/3867/3867088.svg"
+            alt="Imagem de curso de Defesa Pessoal ultilizando lanças"
+          />
+          <div class="content">
+            <h3>Defesa Pessoal apenas com Lança</h3>
+            <p>Batalha</p>
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              ratione aliquid, alias dignissimos animi ut maiores. Maiores fugit
+              eius iure quisquam, ducimus nihil nobis, sunt reprehenderit qui
+              architecto, harum officiis?
+            </div>
+            <a href="#">Ir para a ideia</a>
+          </div>
+        </div>
+      </section>
+    </div>
 
-  <script src="./scripts/script.js"></script>
-</body>
+    <!-- MODAL -->
+    <div id="modal">
+      <div class="content">
+        <h1>Nova Ideia</h1>
+        <form action="">
+
+          <div class="input-wrapper">
+            <label for="title">Título da ideia:</label>
+            <input type="text" name="title" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="category">Categoria:</label>
+            <input type="text" name="category" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="image">Link da imagem:</label>
+            <input type="text" name="image" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="description"
+              >Digite uma descrição para essa ideia:</label
+            >
+            <textarea name="description" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="link">Link da ideia:</label>
+            <input type="text" name="link" />
+          </div>
+
+          <button class="fat">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

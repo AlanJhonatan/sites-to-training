@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(0, 9, 19);
+}
+
+h1, h2, h3, p, li {
+  color: white;
+  font-family: "BeaufortforLOL-Bold", sans-serif;
+  box-sizing: border-box;
+}
+
+.btn-voltar {
+  background: #0BC4E2;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .75em;
+}
+
+.champion-container {
+  display: flex;
+  width: 95vw;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.champion-card {
+  /* background-color: rgb(6, 28, 37); */
+  padding-bottom: .75em;
+  margin-bottom: 1em;
+  margin-right: .75em;
+  text-align: center;
+}
+
+.champion-card img {
+  display: block;
+  width: 200px;
+  border-radius: 0 35px 0 35px;
+}
+
+.champion-name {
+  color: white;
+  margin: 0 auto;
+  text-decoration: none;
+}
